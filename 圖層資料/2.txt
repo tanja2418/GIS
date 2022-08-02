@@ -1,0 +1,11 @@
+http://exp-geoserver.dlll.nccu.edu.tw:5081/geoserver/tiger/wms?service=WMS&version=1.1.0&request=GetFeatureInfo&layers=tiger%3Adfdata&bbox=120.370106%2C21.950266%2C121.868893%2C25.269354&width=346&height=768&srs=EPSG%3A4326&styles=&format=application/json
+
+http://exp-geoserver.dlll.nccu.edu.tw:5081/geoserver/tiger/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=tiger%3Adfdata&maxFeatures=50&outputFormat=application%2Fjson
+
+http://exp-geoserver.dlll.nccu.edu.tw:5081/geoserver/tiger/wms/kml?layers=tiger%3Adfdata
+
+http://exp-geoserver.dlll.nccu.edu.tw:5081/geoserver/tiger/wms?service=WMS&version=1.1.0&request=GetMap&layers=tiger%3Adfdata&bbox=120.370106%2C21.950266%2C121.868893%2C25.269354&width=346&height=768&srs=EPSG%3A4326&styles=&format=application/openlayers#
+
+
+
+http://exp-geoserver.dlll.nccu.edu.tw:5081/geoserver/test/wms?service=WMS&version=1.1.0&request=GetMap&layers=test%3Adfdata0308&bbox=120.370106%2C21.950266%2C121.868893%2C25.269354&width=346&height=768&srs=EPSG%3A4326&styles=&format=application/openlayers#
